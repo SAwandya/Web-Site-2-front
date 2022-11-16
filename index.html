@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Uiversity Website Design</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">COURSE</a></li>
+                            <li><a href="">BLOGS</a></li>
+                            <li><a href="">CONTACT</a></li>
+
+                        </ul>
+                </div>
+                <i class="fa fa-bars"  onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box" >
+                <h1>World's Bigget University</h1>
+                <p>
+                    Making website is now one of the easiest thing in the world.You just need to learn HTML,CSS,</br>Javascript and you are good to go
+                </p>
+                <a class="hero-btn" href="">Visit Us To know More</a>
+            </div>
+        </section>
+
+        <!------------- course ---------------->
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Software engineering is a systematic engineering approach to software development.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>In intermediate accounting, you learn about current liabilities and long-term liabilities.
+                    A liability is an amount of money that one business owes to another. Current liabilities
+                    are the amounts that you need to pay within a year.</p>
+
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>In intermediate accounting, you learn about current liabilities and long-term liabilities.
+                    A liability is an amount of money that one business owes to another. Current liabilities
+                    are the amounts that you need to pay within a year.</p>
+
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>In intermediate accounting, you learn about current liabilities and long-term liabilities.
+                    A liability is an amount of money that one business owes to another. Current liabilities
+                    are the amounts that you need to pay within a year.</p>
+                </div>
+            </div>
+        </section>
+
+        <!------- campus ------->
+
+        <section class="campus" >
+            <h1>Our Globle Campus</h1>            
+            <p>In intermediate accounting, you learn about current liabilities and long-term</p>
+            
+            <div class="row">
+               
+                <div class="campus-col">
+                    <img src="images/london.png">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png">
+                    <div class="layer">
+                        <h3>NEWYORK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/washington.png">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facilities">
+
+            <h2>Our Facilities</h2>
+            <p>In intermediate accounting, you learn about current liabilities and long</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>Libraries</h3>
+                    <p> A liability is an amount of money that one business owes to another</p>
+                </div>
+            
+            
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Big Playgrounds</h3>
+                    <p> A liability is an amount of money that one business owes to another</p>
+                </div>
+            
+            
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Healthy Foods</h3>
+                    <p> A liability is an amount of money that one business owes to another</p>
+                
+                </div>
+            </div>
+        </section>
+
+        <section class="testimo">
+            <h1>What Our Student Says</h1>
+            <p>A liability is an amount of money that one business owes to another</p>
+
+            <div class="row">
+
+                <div class="about" >
+                    <img src="images/user1.jpg">
+                    <div>
+                    <p>In intermediate accounting, you learn about current liabilities and long-term liabilities.
+                        A liability is an amount of money that one business owes to another. Current liabilities</p>
+                    </div>    
+                </div>  
+                <div class="about">
+                    <img src="images/user2.jpg">
+                    <div>
+                    <p>In intermediate accounting, you learn about current liabilities and long-term liabilities.
+                     A liability is an amount of money that one business owes to another. Current liabilities</p>
+                    </div> 
+                </div>  
+               
+            </div>
+
+        </section>
+
+        <!-------- JavaScript for toggle Menu --------->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+      
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
